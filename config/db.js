@@ -1,4 +1,4 @@
-import { ad, Table } from './dbConfig.js'
+import { db, Table } from './dbConfig.js'
 
 // CREATE or UPDATE Vault
 const createOrUpdate = async (data = {}) => {
